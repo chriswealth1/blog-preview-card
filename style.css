@@ -38,7 +38,17 @@ justify-content: center;
     font-weight: 800;
     margin: 10px 0;
 }
-.content h2 a:hover,.content h2 a:focus{
+.content h2 {
+    margin: 20px 0;
+  
+ }
+.content h2 a{
+  font-weight: 800;
+    font-size:22px;
+    text-decoration:none
+}
+.content h2 a:hover,
+.content h2 a:focus{
     color: #f5d04e;
     cursor: pointer;
 }
@@ -47,12 +57,8 @@ justify-content: center;
     font-weight: 600;
     font-size: 14px;
 }
-.content h2 {
-    margin: 20px 0;
-    font-weight: 800;
-    font-size:22px;
- }
-small{
+
+.small{
     font-weight: 600;
     color: #777;
 }
